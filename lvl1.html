@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Abacus Number Generator - Lvl 1</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <div class="header text-center mt-12 mb-20">
+            <h1 class="text-4xl font-semibold"><a href="index.html" class="hover:underline">AbacusNumberGenerator</a></h1>
+            <div class="flex align-center justify-center mt-3">
+                <hr class="w-3/4 text-black">
+            </div>
+        </div>
+        <div class="border-2 border-black w-1/2 mx-auto p-5 rounded-md text-center">
+            <div class="flex gap-8">
+                
+                <div class="flex-1 w-64 text-center border-2 border-black py-3 rounded-sm">
+                  <span class="mb-4">Number</span>
+                  <h1 class="text-6xl" id="number">0</h1>
+                </div>
+                <div class="flex-1 w-32 text-center border-2 border-black py-3 rounded-sm">
+                  <span>Solution</span>
+                  <h1 class="text-6xl" id="solution_text">0</h1>
+                </div>
+            </div>
+
+            <div class="flex gap-8 mt-5">
+                
+                <div class="flex-1 w-full text-center rounded-sm">
+                    <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 w-full" id="new_number_button">Get New Number (SPACE)</button>
+
+
+                </div>
+                <div class="flex-1 w-32 text-center rounded-sm">
+                    <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 w-full" id="solution_btn">Show Solution (ENTER)</button>
+
+                </div>
+            </div>
+
+            <div class="flex gap-8 mt-2">
+                
+                <div class="flex-1 w-full text-center rounded-sm">
+                    <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 w-full" id="clearbtn">Clear Scores</button>
+
+
+                </div>
+                <div class="flex-1 w-32 text-center rounded-sm">
+                    <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 w-full" id="solution_btn"><a href="lvl2.html">Advance to Next Level [2]</a></button>
+
+                </div>
+            </div>
+
+            <div class="text-center text-lg mt-3">
+                <span class="text-gray-500 font-md">[Numbers Entered will Show Here]</span>
+
+                <p id="numbers-list"></p>
+            </div>
+            
+        </div>
+    
+    <script src="main.js"></script>
+    </body>
+
+</html>
